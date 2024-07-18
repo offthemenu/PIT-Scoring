@@ -1,8 +1,6 @@
 # PIT-Scoring
 Categorization of books written by NYU Alliance scholars by their compatibility to Public Interest Technology (PIT)
 
-Got it! Let's update the documentation to reflect that the descriptions of the three explicitly PIT-related books were used as part of the process to extract the PIT keywords, rather than as test cases.
-
 ## Summary and Goal
 
 The goal of this project is to develop a methodology to evaluate and score the compatibility of book descriptions with Public Interest Technology (PIT) keywords. This involves extracting text from various sources (PDFs, web pages), preprocessing the text to focus on relevant words, and calculating a compatibility score using techniques such as TF-IDF and cosine similarity.
