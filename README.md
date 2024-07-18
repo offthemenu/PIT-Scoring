@@ -112,6 +112,13 @@ Extracts and preprocesses descriptions of selected books to analyze their compat
 
 Enhances the keyword list with additional PIT-related texts and extracts the top 100 keywords using the refined text chain.
 
+### Example Book Descriptions for PIT-Related Publication
+
+The descriptions of these books were used to extract PIT keywords due to their explicit relevance to Public Interest Technology:
+- **“Black Software”: The Internet & Racial Justice - Charlton McIlwain (PB001)**
+- **Ethical Data Science: Prediction in the Public Interest - Anne Washington (PB002)**
+- **Privacy, Big Data, and the Public Good: Frameworks for Engagement - Julia Lane (PB003)**
+
 ### Process
 - **Combine all preprocessed texts**: Combine all unique words from PIT-related documents and book descriptions.
 - **Extract top keywords**: Use the TF-IDF vectorizer to extract the top 100 keywords.
@@ -146,17 +153,5 @@ Applies the PIT-scoring function to a dataset of book descriptions to calculate 
 ### Process
 - **Load dataset**: Load a CSV file containing book descriptions.
 - **Calculate and add scores**: Iterate through each book description, calculate the compatibility score using the PIT-scoring function, and add the score to the dataset.
-
-## Example Book Descriptions for PIT-Related Publication
-
-### Example Books
-The descriptions of these books were used to extract PIT keywords due to their explicit relevance to Public Interest Technology:
-- **“Black Software”: The Internet & Racial Justice - Charlton McIlwain (PB001)**
-- **Ethical Data Science: Prediction in the Public Interest - Anne Washington (PB002)**
-- **Privacy, Big Data, and the Public Good: Frameworks for Engagement - Julia Lane (PB003)**
-
-### Process
-- **Extract text from web pages**: Extract book descriptions from provided URLs.
-- **Preprocess and analyze text**: Preprocess the descriptions, extract unique nouns and adjectives, and combine them for keyword extraction and scoring.
 
 This structured approach ensures a thorough evaluation of book descriptions against PIT keywords, providing a reliable measure of their compatibility with Public Interest Technology themes.
